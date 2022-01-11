@@ -1,0 +1,13 @@
+body{
+    margin:20px;
+    background-color: #58b43d;
+}
+h1,h2{
+    text-align: center;
+    margin: 0;
+}
+.img_halk{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
