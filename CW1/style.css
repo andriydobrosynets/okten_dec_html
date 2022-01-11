@@ -1,0 +1,33 @@
+body{
+    margin: 20px;
+    background-color: bisque;
+}
+h1{
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.simpsons_family{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+}
+.simpsons_family div{
+    width: 400px;
+}
+.simpsons_family h3{
+    text-align: center;
+}
+.simpsons_family img{
+    width: 400px;
+    height: 350px;
+}
+h1 a{
+    text-decoration: none;
+}
