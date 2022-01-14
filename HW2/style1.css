@@ -1,0 +1,47 @@
+body{
+    margin: 0 auto;
+}
+.main_cintainer{
+    margin: 0 10px 0 10px;
+}
+.title{
+    background-color: #6b2121;
+    text-align: center;
+}
+.title h1{
+    color: aliceblue;
+}
+.p_one{
+    height: 100px;
+    background-color: silver;
+    padding-left: 20px;
+}
+.p_one p{
+    padding-top: 30px;
+}
+.p_two{
+    height: 150px;
+    background-color: blue;
+
+}
+.p_two p{
+    padding-top: 60px;
+    margin: 0 auto;
+}
+.square_one{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.square_two{
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+    border-radius:25px;
+}
+.line{
+    border: solid 1px  #6b2121;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
