@@ -1,0 +1,24 @@
+.container_one{
+    height: 35vh;
+    background-color: silver;
+}
+.container_two{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 10px;
+    height: 60vh;
+}
+.container_two div:first-child {
+    background-color: silver;
+    width: 70%;
+}
+.container_two div:last-child{
+    background-color: silver;
+    width: 30%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

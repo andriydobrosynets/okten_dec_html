@@ -1,0 +1,31 @@
+body{
+    margin: 40px 380px;
+}
+.header{
+    background-color: #e6f7b0;
+    height: 15vh;
+}
+.container_two{
+    display: flex;
+    column-gap: 10px;
+}
+.menu{
+    background-color: #ffb7ff;
+    width: 30%;
+    height: 50vh;
+}
+.container_right{
+    width: 70%;
+}
+.container_post{
+    background-color: #9fe2ff;
+    height: 24vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margin{
+    margin-top: 10px;
+}

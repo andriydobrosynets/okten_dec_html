@@ -1,0 +1,36 @@
+body{
+    margin: 40px 200px;
+
+}
+.header{
+    height: 100px;
+    background-color: #0c65a7;
+}
+.nav{
+    height: 80px;
+    background-color: #134c77;
+}
+
+.container_two{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    height: 370px;
+    background-color: #16a2c5;
+    width: 70%;
+}
+.aside{
+    height: 370px;
+    background-color: #5275ad;
+    width: 30%;
+}
+.footer{
+    height: 100px;
+    background-color: #7dcce3;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
