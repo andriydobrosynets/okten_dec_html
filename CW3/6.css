@@ -1,0 +1,40 @@
+body{
+    margin: 20px 200px;
+}
+.first_containet{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+
+}
+.first_containet>div{
+    background-color: #2269bb;
+    height: 500px;
+    width: 50%;
+}
+.second_container{
+    background-color: #2269bb;
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.three_container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.three_container div{
+    background-color: #16457a;
+    height: 300px;
+    width: 33%;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: #ffffff;
+}
