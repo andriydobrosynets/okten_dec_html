@@ -1,0 +1,151 @@
+body{
+    margin: 30px 150px;
+}
+.header{
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: black solid 4px;
+
+}
+.header div{
+    background-color: #dcdcdc;
+    width: 100px;
+    height: 20px;
+    margin: 0 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+
+}
+.main_left{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    border: black solid 4px;
+}
+.main_left div{
+    background-color: #dcdcdc;
+    width: 80%;
+    height: 20px;
+}
+.main_left div:first-child{
+    margin-top: 15px;
+}
+.main_right{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border: black solid 4px;
+}
+.one div{
+    background-color: #dcdcdc;
+    width: 90%;
+    height: 60vh;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    border: black solid 4px;
+    column-gap: 10px;
+}
+.two div{
+    background-color: #dcdcdc;
+    width: 120px;
+    height: 90px;
+
+}
+.three{
+    display: flex;
+    flex-direction: row;
+}
+.three_one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: black solid 4px;
+    column-gap: 10px;
+    width: 70%;
+    padding: 10px 0;
+    height: auto;
+
+}
+.three_one_left{
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+
+}
+.three_one_left div{
+    background-color: #dcdcdc;
+    width: 120px;
+    height: 90px;
+}
+.three_one_right{
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+
+}
+.three_one_right div{
+    background-color: #dcdcdc;
+    width: 120px;
+    height: 90px;
+}
+.three_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 4px;
+    row-gap: 10px;
+    width: 30%;
+    padding: 10px 0;
+    height: auto;
+}
+.three_two div{
+    background-color: #dcdcdc;
+    width: 80%;
+    height: 50px;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    border: black solid 4px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.four div:first-child{
+    background-color: #dcdcdc;
+    width: 80%;
+    height: 30px;
+}
+.four div:last-child{
+    background-color: #dcdcdc;
+    width: 20%;
+    height: 30px;
+}
+
+
