@@ -56,7 +56,7 @@ body{
 .one div{
     background-color: #dcdcdc;
     width: 90%;
-    height: 60vh;
+    height: 350px;
 }
 .two{
     display: flex;
