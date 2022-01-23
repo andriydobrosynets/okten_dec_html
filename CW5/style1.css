@@ -1,0 +1,231 @@
+body{
+    margin: 20px;
+}
+.header{
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: black solid 4px;
+
+}
+.header div{
+    background-color: #dcdcdc;
+    width: 100px;
+    height: 20px;
+    margin: 0 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+
+}
+.main_left{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    border: black solid 4px;
+}
+.main_left div{
+    background-color: #dcdcdc;
+    width: 80%;
+    height: 20px;
+}
+.main_left div:first-child{
+    margin-top: 15px;
+}
+.main_right{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border: black solid 4px;
+}
+.one div{
+    background-color: #dcdcdc;
+    width: 90%;
+    height: 350px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: black solid 4px;
+    column-gap: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.two>div{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: center;
+}
+.mini_blok{
+    background-color: #dcdcdc;
+    width: 120px;
+    height: 90px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+}
+.three_one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: black solid 4px;
+    column-gap: 10px;
+    width: 70%;
+    padding: 10px 0;
+    height: auto;
+
+}
+.three_one_left{
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+
+}
+.three_one_left div{
+    background-color: #dcdcdc;
+    width: 120px;
+    height: 90px;
+}
+.three_one_right{
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+
+}
+.three_one_right div{
+    background-color: #dcdcdc;
+    width: 120px;
+    height: 90px;
+}
+.three_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 4px;
+    row-gap: 10px;
+    width: 30%;
+    padding: 10px 0;
+    height: auto;
+}
+.three_two_blok{
+    width: 80%;
+}
+.three_two_blok_top{
+    background-color: #dcdcdc;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+.three_two_blok_bottom{
+    background-color: #dcdcdc;
+    width: 80%;
+    height: 40px;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    border: black solid 4px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.four div:first-child{
+    background-color: #dcdcdc;
+    width: 80%;
+    height: 30px;
+}
+.four div:last-child{
+    background-color: #dcdcdc;
+    width: 20%;
+    height: 30px;
+}
+@media screen and (max-width: 800px){
+    body {
+        margin: 10px;
+    }
+    .main_left{
+        display: none;
+    }
+    .main_right{
+        width: 100%;
+    }
+    .two{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .two>div{
+        column-gap: 40px;
+    }
+    .three{
+        flex-wrap: wrap;
+    }
+    .three_one,.three_two{
+        width: 100%;
+    }
+    .three_two_blok_bottom{
+        height: 140px;
+        margin-top: 10px;
+    }
+    .three_two{
+        flex-direction: row;
+        column-gap: 10px;
+        padding: 0 10px 10px 10px;
+    }
+    .three_one_left div{
+        width:200px;
+    }
+    .three_one_right div{
+        width:200px;
+    }
+}
+@media screen and (max-width: 500px){
+    .three_two{
+        flex-direction: column;
+        column-gap: 10px;
+        padding: 0 0 10px 0;
+    }
+    .three_two_blok_bottom{
+        margin-top: 0;
+    }
+    .three_one{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .three_one_left div{
+        width:280px;
+    }
+    .three_one_right div{
+        display: none;
+    }
+
+}
+
+
+
